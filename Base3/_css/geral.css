@@ -1,0 +1,228 @@
+/* CSS Document */
+
+@import url(reset.css);
+
+
+html, body {
+	height: 100%;
+}
+
+body, input, select, textarea {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+
+	
+#div_tudo {
+	width:100%;
+	margin:auto;
+	position: relative;
+	min-height: 100%;
+}
+
+* html #div_tudo {
+	height: 100%; /* hack para IE6 que trata height como min-height */
+}
+
+
+#div_cab {
+	width:inherit;
+	height:80px;
+	color:#FFFFFF;
+	background-color:#333333;	
+}
+
+#div_menu_hor {
+	width:inherit;
+	height:25px;
+	background-color:#99CC99;
+	color:#FFFFFF;
+	clear:both;
+}
+
+#div_conteudo {
+	margin:auto;
+	width:100%
+	height:auto;
+	background-color:#FFFFFF;
+	padding:10px;
+	line-height:21px;
+	padding-bottom: 30px;
+}
+
+#div_rodape {
+	width:inherit;
+	height:25px;
+	background-color:#333333;
+	color:#FFFFFF;
+	clear:both;
+	text-align:center;
+	padding-top:10px;
+	
+	position: absolute;
+	bottom: 0;	
+}
+
+#div_login {
+	height:250px;
+	padding-top:100px;
+
+}
+
+#div_login td {
+	padding:8px;
+}
+
+#div_login th {
+	padding:8px;
+	text-align:center;
+}
+
+.titulo_cab {
+	font:Helvetica, Arial, sans-serif;
+	font-size:26px;	
+	color:#99CC99;
+	font-weight:normal;
+	margin-left:10px;
+	margin-top:25px;
+	float:left;
+}
+.titulo_cab a {
+	color:#99CC99;
+	text-decoration:none;
+}
+
+
+
+.menu_cab {
+	float:right;
+	color:#FFFFFF;
+	margin-top:5px;
+	margin-right:5px;
+	font-size:10px;
+}
+
+.menu_cab a {
+	color:#99CC99;
+	text-decoration:none;
+}
+
+.menu_cab a:hover {
+	text-decoration:underline;
+}
+
+.menu_hor  {
+	list-style:none;
+}
+
+.menu_hor li a {
+	height:20px;
+	color:#ffffff;
+	text-decoration:none;
+	margin-left:0px;
+	float:left; 
+	padding:5px 10px 0px 10px;
+}
+
+.menu_hor li a:hover {
+	text-decoration:underline;
+	background-color:#f05e00;
+	color:#ffffff;
+}
+
+.titulo_modulo {
+	background-color:#FFFFFF;
+	color:#f05e00;
+	font-size:14px;
+	border-bottom:solid 6px #aaaaaa;
+	font-weight:bold;
+	padding:5px;
+}
+
+#div_conteudo table {
+	width:100%;
+	margin:auto;	
+}
+
+#div_conteudo td {
+	padding:5px;		
+}
+
+#div_form_pesquisa {
+	float:left;
+	margin:10px 0 15px 0;
+}
+
+
+#div_opcoes_gerais {
+	float:right;
+	margin:25px 10px 0px 0;
+}
+
+#div_opcoes_gerais  a {
+	color:#fff;
+	padding:5px;
+	background-color:#f05e00;
+	text-decoration:none;
+	font-weight:bold;
+	margin-right:10px;
+}
+
+#div_login table {
+	width:50%;
+	margin:auto;	
+}
+
+#formcad {
+	font-size:14px;
+	line-height:30px;
+	background-color:#f2f2f2;
+	padding:10px;
+}
+
+#formcad input, select {
+	font-size:16px;
+}
+
+#div_vitrine {
+
+	border:0px #000 solid;
+	width:820px;
+	margin:auto;
+
+
+}
+
+.prod_vitrine {
+	height:325px;
+	border:0px #000 solid;
+	width:265px;
+	float:left;
+	
+	text-align:center;
+
+}
+
+.foto_vitrine {
+	height:225px;
+	text-align:center;
+}
+
+.limpar_float {
+	clear:both;
+}
+
+.valor_prod_vitrine {
+	color:#009933;
+}
+
+.desc_prod_vitrine {
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+}
+
+
+
+
